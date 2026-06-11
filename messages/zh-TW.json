@@ -1,0 +1,96 @@
+{
+  "common": {
+    "brand": "願望筆記",
+    "brand_tagline": "把模糊的夢想化為今天的一小步",
+    "operated_by": "Operated by Revely",
+    "next": "下一步",
+    "back": "返回",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "刪除",
+    "loading": "請稍候…",
+    "retry": "重試",
+    "share": "分享",
+    "copied": "已複製"
+  },
+  "home": {
+    "hero_title_a": "讓心中的小小願望",
+    "hero_title_b": "成為今天的第一步",
+    "hero_sub": "寫下模糊的夢想,AI 會拆解為今天可做的小行動。把便利貼貼到樹上,一步步成長。",
+    "cta_start": "立即開始",
+    "cta_login": "用 Google 登入",
+    "empty_title": "還沒有願望",
+    "empty_sub": "寫下第一個願望吧",
+    "feature1_title": "抽象→具體 三階分解",
+    "feature1_sub": "大夢想 → 具體願望 → 今天的行動",
+    "feature2_title": "樹會成長",
+    "feature2_sub": "春→夏→秋→冬",
+    "feature3_title": "便利貼變色",
+    "feature3_sub": "黃(新)→藍(進行)→綠(完成)",
+    "season_label_spring": "春",
+    "season_label_summer": "夏",
+    "season_label_autumn": "秋",
+    "season_label_winter": "冬"
+  },
+  "wish": {
+    "level1_title": "第一階 — 大夢想",
+    "level1_sub": "理想化的抽象類別(如:變健康、變富有)",
+    "level1_placeholder": "你心中有什麼大夢想?",
+    "level2_title": "第二階 — 具體願望",
+    "level2_sub": "更具體一些(如:體脂15%、月入10萬)",
+    "level2_placeholder": "這個季節想實現的一件事",
+    "decompose_cta": "請 AI 分解",
+    "decompose_loading": "把願望種在樹上…",
+    "actions_title": "今天的小行動",
+    "actions_sub": "點擊便利貼標記開始 / 完成",
+    "status_yellow": "新",
+    "status_blue": "進行中",
+    "status_green": "完成",
+    "start_action": "開始",
+    "complete_action": "完成",
+    "reopen_action": "重開",
+    "example_dream_1": "變健康",
+    "example_dream_2": "心境從容",
+    "example_dream_3": "成為寫作者",
+    "example_dream_4": "開自己的店"
+  },
+  "tree": {
+    "title": "我的願望樹",
+    "sub": "每完成一項,葉子就會變色",
+    "stat_total": "總計",
+    "stat_done": "完成",
+    "stat_progress": "進行中",
+    "season_changed": "季節變了"
+  },
+  "share": {
+    "caption": "我的願望長成了一棵樹 🌱 #願望筆記",
+    "cta": "分享我的樹"
+  },
+  "errors": {
+    "missing_fields": "請填寫第一階和第二階",
+    "ai_failed": "請稍後重試",
+    "unknown": "出錯了",
+    "fallback_notice": "今天用了預設指引。更豐富的 AI 分解很快回來。"
+  },
+  "ads": { "label": "廣告" },
+  "auth": {
+    "login_cta": "登入",
+    "login_title": "在任何裝置上培育同一棵樹",
+    "login_sub": "登入後願望跨裝置同步",
+    "google_login": "繼續使用 Google",
+    "continue_guest": "看看",
+    "nickname_title": "選擇暱稱",
+    "nickname_sub": "分享時會顯示",
+    "nickname_placeholder": "例:願望守護者",
+    "nickname_save": "保存",
+    "nickname_error": "暱稱已被使用或不可用",
+    "logout": "登出"
+  },
+  "donate": {
+    "title": "請我們喝杯咖啡",
+    "sub": "您的支持讓我們一年內無廣告",
+    "silver": "銀色支持 NT$30",
+    "gold": "金色支持 NT$90",
+    "thanks": "感謝您的支持!"
+  }
+}

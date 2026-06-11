@@ -1,0 +1,98 @@
+{
+  "common": {
+    "brand": "ソマンノート",
+    "brand_tagline": "ぼんやりした夢を、今日の一歩へ",
+    "operated_by": "Operated by Revely",
+    "next": "次へ",
+    "back": "戻る",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "loading": "少々お待ちください…",
+    "retry": "もう一度",
+    "share": "シェア",
+    "copied": "コピーしました"
+  },
+  "home": {
+    "hero_title_a": "心の中の小さな願いが",
+    "hero_title_b": "今日の一歩になるように",
+    "hero_sub": "ぼんやりした夢を書くと、AIが今日できる小さな行動に分解します。木に付箋を貼って、一歩ずつ育てていきましょう。",
+    "cta_start": "今すぐ始める",
+    "cta_login": "Googleでログイン",
+    "empty_title": "まだ願いがありません",
+    "empty_sub": "最初の願いを書いてみましょう",
+    "feature1_title": "抽象→具体 3段分解",
+    "feature1_sub": "大きな夢 → 具体的な願い → 今日の行動",
+    "feature2_title": "木が育ちます",
+    "feature2_sub": "春→夏→秋→冬",
+    "feature3_title": "付箋が色を変えます",
+    "feature3_sub": "黄(新規)→青(進行)→緑(完了)",
+    "season_label_spring": "春",
+    "season_label_summer": "夏",
+    "season_label_autumn": "秋",
+    "season_label_winter": "冬"
+  },
+  "wish": {
+    "level1_title": "段階1 — 大きな夢",
+    "level1_sub": "理想的で抽象的なカテゴリ(例: 健康になる、豊かになる)",
+    "level1_placeholder": "どんな大きな夢がありますか?",
+    "level2_title": "段階2 — 具体的な願い",
+    "level2_sub": "より具体的に(例: 体脂肪15%、月100万売上)",
+    "level2_placeholder": "この季節に叶えたい一つ",
+    "decompose_cta": "AIに分解してもらう",
+    "decompose_loading": "願いを木に植えています…",
+    "actions_title": "今日の小さな一歩",
+    "actions_sub": "付箋をタップして開始・完了",
+    "status_yellow": "新規",
+    "status_blue": "進行中",
+    "status_green": "完了",
+    "start_action": "開始",
+    "complete_action": "完了",
+    "reopen_action": "再開",
+    "example_dream_1": "健康になる",
+    "example_dream_2": "心の余裕を持つ",
+    "example_dream_3": "書く人になる",
+    "example_dream_4": "自分のお店を開く"
+  },
+  "tree": {
+    "title": "私の願いの木",
+    "sub": "完了するたび葉が色を変えます",
+    "stat_total": "合計",
+    "stat_done": "完了",
+    "stat_progress": "進行中",
+    "season_changed": "季節が変わりました"
+  },
+  "share": {
+    "caption": "私の願いが木になりました 🌱 #ソマンノート",
+    "cta": "私の木をシェア"
+  },
+  "errors": {
+    "missing_fields": "段階1・段階2を両方ご記入ください",
+    "ai_failed": "少し時間をおいてからお試しください",
+    "unknown": "エラーが発生しました",
+    "fallback_notice": "今日は基本ガイドで分解しました。AIはまもなく戻ります。"
+  },
+  "ads": {
+    "label": "広告"
+  },
+  "auth": {
+    "login_cta": "ログイン",
+    "login_title": "どこでも同じ木を育てよう",
+    "login_sub": "ログインで全デバイスに願いが続きます",
+    "google_login": "Googleで続ける",
+    "continue_guest": "見て回る",
+    "nickname_title": "ニックネームを決めましょう",
+    "nickname_sub": "シェア時に表示されます",
+    "nickname_placeholder": "例: ねがいまもり",
+    "nickname_save": "保存",
+    "nickname_error": "このニックネームは使えません",
+    "logout": "ログアウト"
+  },
+  "donate": {
+    "title": "コーヒー一杯で応援",
+    "sub": "応援いただくと1年間広告なしに",
+    "silver": "シルバー応援 ¥150",
+    "gold": "ゴールド応援 ¥450",
+    "thanks": "応援ありがとうございます!"
+  }
+}

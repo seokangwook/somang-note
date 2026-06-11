@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "somang-note",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--", "--port", "4020"],
+      "port": 4020,
+      "cwd": "D:\\reve\\somang-note"
+    }
+  ]
+}

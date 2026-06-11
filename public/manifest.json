@@ -1,0 +1,15 @@
+{
+  "name": "소망노트 · Somang Note",
+  "short_name": "소망노트",
+  "description": "막연한 꿈을 오늘의 한 걸음으로",
+  "start_url": "/ko",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fdf7ec",
+  "theme_color": "#fdf7ec",
+  "lang": "ko",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

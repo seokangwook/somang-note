@@ -1,0 +1,98 @@
+{
+  "common": {
+    "brand": "소망노트",
+    "brand_tagline": "막연한 꿈을 오늘의 한 걸음으로",
+    "operated_by": "Operated by Revely",
+    "next": "다음",
+    "back": "이전",
+    "save": "저장",
+    "cancel": "취소",
+    "delete": "삭제",
+    "loading": "잠시만요…",
+    "retry": "다시 시도",
+    "share": "공유하기",
+    "copied": "복사되었어요"
+  },
+  "home": {
+    "hero_title_a": "마음속 작은 소망이",
+    "hero_title_b": "오늘의 한 걸음이 되도록",
+    "hero_sub": "막연한 꿈을 적으면 AI가 오늘 할 수 있는 작은 액션으로 분해해드려요. 나무에 포스트잇을 붙이며 한 걸음씩 자라나세요.",
+    "cta_start": "지금 시작하기",
+    "cta_login": "Google로 로그인",
+    "empty_title": "아직 소망이 없어요",
+    "empty_sub": "첫 소망을 적어볼까요?",
+    "feature1_title": "추상→구체 3단 분해",
+    "feature1_sub": "큰 꿈 → 구체 소망 → 오늘의 액션",
+    "feature2_title": "나무가 자라요",
+    "feature2_sub": "완료할수록 봄·여름·가을·겨울로",
+    "feature3_title": "포스트잇 색이 변해요",
+    "feature3_sub": "노랑(신규)→파랑(진행)→초록(완료)",
+    "season_label_spring": "봄",
+    "season_label_summer": "여름",
+    "season_label_autumn": "가을",
+    "season_label_winter": "겨울"
+  },
+  "wish": {
+    "level1_title": "1단계 — 큰 꿈",
+    "level1_sub": "이상적이고 추상적인 큰 범주 (예: 건강해지기, 부자 되기)",
+    "level1_placeholder": "어떤 큰 꿈이 있나요?",
+    "level2_title": "2단계 — 구체적 소망",
+    "level2_sub": "조금 더 구체적인 소망 (예: 체지방 15%, 월 1억 매출)",
+    "level2_placeholder": "이번 시즌 이루고 싶은 한 가지를 적어주세요",
+    "decompose_cta": "AI에게 분해 부탁하기",
+    "decompose_loading": "소망을 나무에 옮기는 중…",
+    "actions_title": "오늘의 작은 한 걸음",
+    "actions_sub": "포스트잇을 눌러 시작·완료를 표시하세요",
+    "status_yellow": "신규",
+    "status_blue": "진행 중",
+    "status_green": "완료",
+    "start_action": "시작",
+    "complete_action": "완료",
+    "reopen_action": "다시 열기",
+    "example_dream_1": "건강해지기",
+    "example_dream_2": "마음의 여유 갖기",
+    "example_dream_3": "글 쓰는 사람 되기",
+    "example_dream_4": "내 가게 차리기"
+  },
+  "tree": {
+    "title": "나의 소망 나무",
+    "sub": "완료할수록 잎이 색을 바꿔요",
+    "stat_total": "전체",
+    "stat_done": "완료",
+    "stat_progress": "진행 중",
+    "season_changed": "계절이 바뀌었어요"
+  },
+  "share": {
+    "caption": "내 소망이 나무가 되었어요 🌱 #소망노트",
+    "cta": "내 나무 공유하기"
+  },
+  "errors": {
+    "missing_fields": "1·2단계 소망을 모두 적어주세요",
+    "ai_failed": "잠시 후 다시 시도해주세요",
+    "unknown": "알 수 없는 오류가 발생했어요",
+    "fallback_notice": "오늘은 기본 가이드로 분해했어요. 잠시 후 더 풍성한 AI 분해가 가능해질 거예요."
+  },
+  "ads": {
+    "label": "광고"
+  },
+  "auth": {
+    "login_cta": "로그인",
+    "login_title": "어디서든 같은 나무를 키우세요",
+    "login_sub": "로그인하면 모든 기기에서 소망이 이어져요",
+    "google_login": "Google로 계속하기",
+    "continue_guest": "둘러보기",
+    "nickname_title": "닉네임을 정해주세요",
+    "nickname_sub": "다른 분들과 공유될 때 보여요",
+    "nickname_placeholder": "예: 소망지기",
+    "nickname_save": "저장",
+    "nickname_error": "이미 사용 중이거나 사용할 수 없는 닉네임이에요",
+    "logout": "로그아웃"
+  },
+  "donate": {
+    "title": "커피 한 잔으로 응원해주세요",
+    "sub": "응원해주시면 1년 동안 광고 없이 사용하실 수 있어요",
+    "silver": "실버 응원 ₩1,000",
+    "gold": "골드 응원 ₩3,000",
+    "thanks": "응원해주셔서 고마워요!"
+  }
+}

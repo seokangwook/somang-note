@@ -1,0 +1,96 @@
+{
+  "common": {
+    "brand": "愿望笔记",
+    "brand_tagline": "把模糊的梦想化为今天的一小步",
+    "operated_by": "Operated by Revely",
+    "next": "下一步",
+    "back": "返回",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "loading": "请稍候…",
+    "retry": "重试",
+    "share": "分享",
+    "copied": "已复制"
+  },
+  "home": {
+    "hero_title_a": "让心中的小小愿望",
+    "hero_title_b": "成为今天的第一步",
+    "hero_sub": "写下模糊的梦想,AI 会拆解为今天可做的小行动。把便利贴贴到树上,一步步成长。",
+    "cta_start": "立即开始",
+    "cta_login": "用 Google 登录",
+    "empty_title": "还没有愿望",
+    "empty_sub": "写下第一个愿望吧",
+    "feature1_title": "抽象→具体 三阶分解",
+    "feature1_sub": "大梦想 → 具体愿望 → 今天的行动",
+    "feature2_title": "树会成长",
+    "feature2_sub": "春→夏→秋→冬",
+    "feature3_title": "便利贴变色",
+    "feature3_sub": "黄(新)→蓝(进行)→绿(完成)",
+    "season_label_spring": "春",
+    "season_label_summer": "夏",
+    "season_label_autumn": "秋",
+    "season_label_winter": "冬"
+  },
+  "wish": {
+    "level1_title": "第一阶 — 大梦想",
+    "level1_sub": "理想化的抽象类别(如:变健康、变富有)",
+    "level1_placeholder": "你心中有什么大梦想?",
+    "level2_title": "第二阶 — 具体愿望",
+    "level2_sub": "更具体一些(如:体脂15%、月入10万)",
+    "level2_placeholder": "这个季节想实现的一件事",
+    "decompose_cta": "请 AI 分解",
+    "decompose_loading": "把愿望种在树上…",
+    "actions_title": "今天的小行动",
+    "actions_sub": "点击便利贴标记开始 / 完成",
+    "status_yellow": "新",
+    "status_blue": "进行中",
+    "status_green": "完成",
+    "start_action": "开始",
+    "complete_action": "完成",
+    "reopen_action": "重开",
+    "example_dream_1": "变健康",
+    "example_dream_2": "心境从容",
+    "example_dream_3": "成为写作者",
+    "example_dream_4": "开自己的店"
+  },
+  "tree": {
+    "title": "我的愿望树",
+    "sub": "每完成一项,叶子就会变色",
+    "stat_total": "总计",
+    "stat_done": "完成",
+    "stat_progress": "进行中",
+    "season_changed": "季节变了"
+  },
+  "share": {
+    "caption": "我的愿望长成了一棵树 🌱 #愿望笔记",
+    "cta": "分享我的树"
+  },
+  "errors": {
+    "missing_fields": "请填写第一阶和第二阶",
+    "ai_failed": "请稍后重试",
+    "unknown": "出错了",
+    "fallback_notice": "今天用了默认指引。更丰富的 AI 分解很快回来。"
+  },
+  "ads": { "label": "广告" },
+  "auth": {
+    "login_cta": "登录",
+    "login_title": "在任何设备上培育同一棵树",
+    "login_sub": "登录后愿望跨设备同步",
+    "google_login": "继续使用 Google",
+    "continue_guest": "看看",
+    "nickname_title": "选择昵称",
+    "nickname_sub": "分享时会显示",
+    "nickname_placeholder": "例:愿望守护者",
+    "nickname_save": "保存",
+    "nickname_error": "昵称已被使用或不可用",
+    "logout": "退出"
+  },
+  "donate": {
+    "title": "请我们喝杯咖啡",
+    "sub": "您的支持让我们一年内无广告",
+    "silver": "银色支持 ¥7",
+    "gold": "金色支持 ¥21",
+    "thanks": "感谢您的支持!"
+  }
+}
