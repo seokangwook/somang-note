@@ -12,7 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
   // Guide pages — 신년 결심 SEO 콘텐츠
-  for (const l of ['ko', 'en'] as const) {
+  for (const l of ['ko', 'en', 'ja', 'zh-CN', 'zh-TW'] as const) {
     entries.push({
       url: `${SITE}/${l}/guide/new-year-resolution`,
       lastModified: now,
@@ -20,11 +20,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     });
   }
-  entries.push({
-    url: `${SITE}/privacy`,
-    lastModified: now,
-    changeFrequency: 'yearly' as const,
-    priority: 0.3,
-  });
+  for (const l of ['ko', 'en'] as const) {
+    entries.push({
+      url: `${SITE}/${l}/privacy`,
+      lastModified: now,
+      changeFrequency: 'yearly' as const,
+      priority: 0.3,
+    });
+  }
   return entries;
 }
