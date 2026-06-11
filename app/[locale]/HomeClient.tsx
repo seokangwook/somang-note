@@ -5,6 +5,7 @@ import WishForm from '@/components/WishForm';
 import ActionList from '@/components/ActionList';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import AuthChip from '@/components/AuthChip';
+import NicknameModal from '@/components/NicknameModal';
 import InterstitialAd from '@/components/InterstitialAd';
 import AdSlot from '@/components/AdSlot';
 import DonateButton from '@/components/DonateButton';
@@ -240,6 +241,9 @@ export default function HomeClient({ locale, msgs }: Props) {
       {showInterstitial && (
         <InterstitialAd msgs={msgs} adFree={adFree} onComplete={applyResult} />
       )}
+
+      {/* 닉네임 자동 모달 (로그인 시 미설정 사용자) */}
+      <NicknameModal msgs={msgs} />
 
       {/* Features when empty */}
       {wishes.length === 0 && (
