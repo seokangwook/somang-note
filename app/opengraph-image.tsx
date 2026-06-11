@@ -14,8 +14,7 @@ export default async function og() {
           height: '100%',
           display: 'flex',
           flexDirection: 'column',
-          background:
-            'radial-gradient(800px 500px at 20% 0%, #fff4dc 0%, transparent 60%), radial-gradient(700px 400px at 100% 100%, #d8e8f2 0%, transparent 65%), #fdf7ec',
+          background: '#fdf7ec',
           padding: 72,
           fontFamily: 'system-ui',
           position: 'relative',
@@ -34,17 +33,14 @@ export default async function og() {
           <rect x="200" y="160" width="55" height="55" fill="#bfe5b8" stroke="#74b46c" strokeWidth="3" transform="rotate(-4 227 187)" />
         </svg>
 
-        <div style={{ display: 'flex', flexDirection: 'column' }}>
-          <div style={{ fontSize: 28, color: '#8a7867', marginBottom: 8 }}>Somang Note · 소망노트</div>
-          <div style={{ fontSize: 64, fontWeight: 800, color: '#3c2e21', lineHeight: 1.15, marginBottom: 24 }}>
-            막연한 꿈을<br />오늘의 한 걸음으로
-          </div>
-          <div style={{ fontSize: 28, color: '#5a3f2b', maxWidth: 600, lineHeight: 1.4 }}>
-            AI가 큰 꿈을 오늘 할 일로 분해해 드려요. 나무가 자라는 나만의 비전보드.
-          </div>
+        <div style={{ display: 'flex', fontSize: 28, color: '#8a7867', marginBottom: 8 }}>Somang Note · 소망노트</div>
+        <div style={{ display: 'flex', fontSize: 64, fontWeight: 800, color: '#3c2e21', lineHeight: 1.15, marginBottom: 24 }}>
+          막연한 꿈을 오늘의 한 걸음으로
         </div>
-
-        <div style={{ position: 'absolute', bottom: 48, left: 72, fontSize: 22, color: '#8a7867' }}>
+        <div style={{ display: 'flex', fontSize: 28, color: '#5a3f2b', maxWidth: 600, lineHeight: 1.4 }}>
+          AI가 큰 꿈을 오늘 할 일로 분해해 드려요. 나무가 자라는 나만의 비전보드.
+        </div>
+        <div style={{ display: 'flex', position: 'absolute', bottom: 48, left: 72, fontSize: 22, color: '#8a7867' }}>
           revely.company
         </div>
       </div>

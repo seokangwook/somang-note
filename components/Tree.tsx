@@ -102,6 +102,64 @@ export default function Tree({ season, total, done }: TreeProps) {
         {/* gentle highlights */}
         <circle cx="160" cy="110" r="6" fill="#ffffff" opacity="0.5" />
         <circle cx="220" cy="130" r="4" fill="#ffffff" opacity="0.4" />
+
+        {/* 시즌별 디테일: 봄=꽃잎, 여름=빛, 가을=낙엽, 겨울=눈 */}
+        {season === 'spring' && (
+          <g>
+            {[{x:135,y:185,d:1.2},{x:185,y:200,d:1.8},{x:230,y:175,d:2.6},{x:90,y:220,d:1.5},{x:280,y:250,d:2.1}].map((p,i) => (
+              <motion.circle
+                key={i}
+                cx={p.x} cy={p.y} r={3}
+                fill="#f4b8c0"
+                initial={{ y: -200, opacity: 0 }}
+                animate={{ y: 0, opacity: 0.85 }}
+                transition={{ duration: 2.4, delay: p.d, repeat: Infinity, repeatDelay: 4 }}
+              />
+            ))}
+          </g>
+        )}
+        {season === 'summer' && (
+          <g>
+            <motion.circle
+              cx={285} cy={45} r={20} fill="#fff4a3" opacity={0.7}
+              animate={{ opacity: [0.5, 0.8, 0.5] }}
+              transition={{ duration: 3, repeat: Infinity }}
+            />
+            <motion.circle
+              cx={285} cy={45} r={32} fill="#fff4a3" opacity={0.3}
+              animate={{ opacity: [0.15, 0.4, 0.15] }}
+              transition={{ duration: 3, repeat: Infinity }}
+            />
+          </g>
+        )}
+        {season === 'autumn' && (
+          <g>
+            {[{x:120,y:200,d:0},{x:175,y:240,d:1.1},{x:240,y:220,d:0.6},{x:100,y:260,d:1.6},{x:260,y:270,d:0.3}].map((p,i) => (
+              <motion.path
+                key={i}
+                d={`M ${p.x} ${p.y} q 3 -3 6 0 q -3 3 -6 0 z`}
+                fill={i % 2 === 0 ? '#e89a4a' : '#d6553a'}
+                initial={{ y: -250, x: -5, rotate: 0, opacity: 0 }}
+                animate={{ y: 0, x: 0, rotate: 360, opacity: [0, 0.9, 0.9, 0] }}
+                transition={{ duration: 4, delay: p.d, repeat: Infinity, repeatDelay: 3 }}
+              />
+            ))}
+          </g>
+        )}
+        {season === 'winter' && (
+          <g>
+            {[{x:80,y:120,d:0},{x:140,y:80,d:0.8},{x:200,y:160,d:1.4},{x:260,y:120,d:0.4},{x:50,y:200,d:2.0},{x:310,y:220,d:1.6}].map((p,i) => (
+              <motion.circle
+                key={i}
+                cx={p.x} cy={p.y} r={2.5}
+                fill="#ffffff"
+                initial={{ y: -200, opacity: 0 }}
+                animate={{ y: 100, opacity: [0, 0.9, 0.9, 0] }}
+                transition={{ duration: 6, delay: p.d, repeat: Infinity, repeatDelay: 2 }}
+              />
+            ))}
+          </g>
+        )}
       </svg>
 
       {total > 0 && (

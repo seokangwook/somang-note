@@ -8,6 +8,7 @@ import AuthChip from '@/components/AuthChip';
 import InterstitialAd from '@/components/InterstitialAd';
 import AdSlot from '@/components/AdSlot';
 import DonateButton from '@/components/DonateButton';
+import ShareCard from '@/components/ShareCard';
 import Footer from '@/components/Footer';
 import { computeStats, loadWishes, newId, saveWishes, type WishNode } from '@/lib/storage';
 import { useAuth } from '@/lib/AuthProvider';
@@ -217,6 +218,15 @@ export default function HomeClient({ locale, msgs }: Props) {
             onReopen={(id) => changeStatus(id, 'yellow')}
           />
         </section>
+      )}
+
+      {/* Share card */}
+      {actions.length > 0 && (
+        <ShareCard
+          msgs={msgs}
+          nickname={profile?.nickname ?? '소망지기'}
+          stats={stats}
+        />
       )}
 
       {/* 결과 하단 광고 (자연 전환점 - 영구 룰 OK) */}

@@ -11,6 +11,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'weekly' as const,
     priority: 0.9,
   }));
+  // Guide pages — 신년 결심 SEO 콘텐츠
+  for (const l of ['ko', 'en'] as const) {
+    entries.push({
+      url: `${SITE}/${l}/guide/new-year-resolution`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    });
+  }
   entries.push({
     url: `${SITE}/privacy`,
     lastModified: now,
