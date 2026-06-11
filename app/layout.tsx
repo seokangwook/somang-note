@@ -2,6 +2,8 @@ import './globals.css';
 import type { Metadata, Viewport } from 'next';
 import { AuthProvider } from '@/lib/AuthProvider';
 import SwRegister from './sw-register';
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata: Metadata = {
   title: '소망노트 · Somang Note',
@@ -35,6 +37,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="font-body antialiased">
         <AuthProvider>{children}</AuthProvider>
         <SwRegister />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
