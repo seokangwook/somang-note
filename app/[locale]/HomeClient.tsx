@@ -276,7 +276,7 @@ export default function HomeClient({ locale, msgs }: Props) {
         </section>
       )}
 
-      <Footer msgs={msgs} />
+      <Footer msgs={msgs} locale={locale} />
     </main>
   );
 }
