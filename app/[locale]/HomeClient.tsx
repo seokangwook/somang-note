@@ -7,6 +7,8 @@ import LocaleSwitcher from '@/components/LocaleSwitcher';
 import AuthChip from '@/components/AuthChip';
 import NicknameModal from '@/components/NicknameModal';
 import SeasonToast from '@/components/SeasonToast';
+import InsightCard from '@/components/InsightCard';
+import WelcomeBanner from '@/components/WelcomeBanner';
 import InterstitialAd from '@/components/InterstitialAd';
 import AdSlot from '@/components/AdSlot';
 import DonateButton from '@/components/DonateButton';
@@ -171,6 +173,11 @@ export default function HomeClient({ locale, msgs }: Props) {
         <Tree season={stats.season} total={stats.total} done={stats.done} />
       </section>
 
+      {/* Insight card (분해 후) */}
+      {actions.length > 0 && (
+        <InsightCard msgs={msgs} stats={stats} encouragement={encouragement} />
+      )}
+
       {/* Hero copy when empty */}
       {wishes.length === 0 && (
         <section className="mt-8 text-center">
@@ -184,6 +191,9 @@ export default function HomeClient({ locale, msgs }: Props) {
           </p>
         </section>
       )}
+
+      {/* First-visit welcome */}
+      {wishes.length === 0 && <WelcomeBanner msgs={msgs} />}
 
       {/* Wish form */}
       <section className="mt-8">

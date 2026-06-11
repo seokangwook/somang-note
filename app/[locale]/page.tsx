@@ -33,6 +33,12 @@ export async function generateMetadata({
       description: msgs.home.hero_sub,
       url: `${SITE}/${locale}`,
       type: 'website',
+      siteName: msgs.common.brand,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${msgs.common.brand} — ${msgs.common.brand_tagline}`,
+      description: msgs.home.hero_sub,
     },
   };
 }

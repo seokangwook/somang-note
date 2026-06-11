@@ -28,5 +28,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.3,
     });
   }
+  // 추가 가이드 페이지
+  for (const l of ['ko', 'en', 'ja', 'zh-CN', 'zh-TW'] as const) {
+    entries.push({
+      url: `${SITE}/${l}/guide/three-step-decomposition`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    });
+  }
+  entries.push({
+    url: `${SITE}/support`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.4,
+  });
   return entries;
 }
