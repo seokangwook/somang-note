@@ -66,6 +66,19 @@ public/
 scripts/translate-i18n.py        # Gemini 일괄 번역 헬퍼
 ```
 
+## 주요 라우트
+- `/` → 기본 locale로 redirect
+- `/[locale]` → 메인 (소망 입력 + 분해 + 트리 + 포스트잇)
+- `/[locale]/guide/new-year-resolution` → 신년 결심 SEO 가이드 (5개국 풀, 16 locale 정적)
+- `/[locale]/privacy` → 개인정보 처리방침 (ko/en 풀)
+- `/u/[nickname]` → 공개 비전보드 (기본 비공개)
+- `/donate/success` · `/donate/cancel` → 츄르 결제 결과
+- `/api/decompose` → AI 분해 + fallback
+- `/api/share-card` → 1080x1080 share PNG (Edge)
+- `/api/donate/confirm` → Toss Payments confirm webhook
+- `/auth/callback` → Supabase OAuth callback
+- `/opengraph-image` → 메인 OG 이미지
+
 ## 사용자 수동 설정 단계 (외부 콘솔)
 배포 자동화가 막힌 부분만 — Vercel/Supabase/Google OAuth/AdSense는 OAuth UI 거치는 콘솔 작업.
 
