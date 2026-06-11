@@ -6,6 +6,7 @@ import ActionList from '@/components/ActionList';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import AuthChip from '@/components/AuthChip';
 import NicknameModal from '@/components/NicknameModal';
+import SeasonToast from '@/components/SeasonToast';
 import InterstitialAd from '@/components/InterstitialAd';
 import AdSlot from '@/components/AdSlot';
 import DonateButton from '@/components/DonateButton';
@@ -244,6 +245,9 @@ export default function HomeClient({ locale, msgs }: Props) {
 
       {/* 닉네임 자동 모달 (로그인 시 미설정 사용자) */}
       <NicknameModal msgs={msgs} />
+
+      {/* 계절 변화 토스트 */}
+      <SeasonToast msgs={msgs} season={stats.season} />
 
       {/* Features when empty */}
       {wishes.length === 0 && (

@@ -14,5 +14,21 @@
     { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
     { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ],
-  "categories": ["lifestyle", "productivity", "wellness"]
+  "categories": ["lifestyle", "productivity", "wellness"],
+  "share_target": {
+    "action": "/ko",
+    "method": "GET",
+    "params": {
+      "title": "level1",
+      "text": "level2"
+    }
+  },
+  "shortcuts": [
+    {
+      "name": "새 소망 적기",
+      "short_name": "새 소망",
+      "url": "/ko",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
 }

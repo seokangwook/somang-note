@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: '소망노트 · Somang Note',
   description: '막연한 꿈을 오늘의 한 걸음으로. 나무가 자라는 나만의 비전보드.',
   manifest: '/manifest.json',
+  other: {
+    'google-adsense-account': 'ca-pub-4128588337803742',
+  },
   openGraph: {
     title: '소망노트 — 막연한 꿈을 오늘의 한 걸음으로',
     description: 'AI가 큰 꿈을 오늘 할 일로 분해해 드려요. 나무가 자라는 나만의 비전보드.',
