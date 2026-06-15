@@ -4,10 +4,11 @@ import { getSupabaseBrowser } from './supabase';
 export async function signInWithGoogle() {
   const supabase = getSupabaseBrowser();
   if (!supabase) return;
+  const next = encodeURIComponent(window.location.pathname + window.location.search);
   const { error } = await supabase.auth.signInWithOAuth({
     provider: 'google',
     options: {
-      redirectTo: `${window.location.origin}/auth/callback`,
+      redirectTo: `${window.location.origin}/auth/callback?next=${next}`,
       queryParams: { prompt: 'select_account' },
     },
   });
